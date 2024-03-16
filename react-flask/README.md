@@ -174,6 +174,34 @@ def update_user(id):
     return data
 ```
 
+Here are the equivalent `curl` commands for each of the CRUD operations:
+
+1. **GET Request to Retrieve Users:**
+   ```bash
+   curl -X GET http://localhost:5000/users
+   ```
+
+2. **POST Request to Create a User:**
+   ```bash
+   curl -X POST -H "Content-Type: application/json" -d '{"name": "John", "age": 30}' http://localhost:5000/users
+   ```
+
+   Replace `{"name": "John", "age": 30}` with the JSON data you want to insert.
+
+3. **DELETE Request to Delete a User by ID:**
+   ```bash
+   curl -X DELETE http://localhost:5000/users/INSERT_ID_HERE
+   ```
+
+   Replace `INSERT_ID_HERE` with the ID of the user you want to delete.
+
+4. **PUT Request to Update a User by ID:**
+   ```bash
+   curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Name", "age": 40}' http://localhost:5000/users/INSERT_ID_HERE
+   ```
+
+   Replace `{"name": "Updated Name", "age": 40}` with the updated JSON data, and `INSERT_ID_HERE` with the ID of the user you want to update.
+
 ### Step 6: Styling with Tailwind CSS
 
 We'll use Tailwind CSS for styling. Install Tailwind CSS and create a configuration file:
@@ -310,3 +338,7 @@ export default App;
 ### Conclusion
 
 You've now built a full-stack web application using React for the frontend, Flask for the backend, MongoDB for the database, and Tailwind CSS for styling. This application allows for basic CRUD operations on user data, demonstrating the integration of frontend and backend technologies.
+
+### Repository
+
+Find the complete source code and instructions in the [GitHub repository](https://github.com/tail-ed/workshop).
