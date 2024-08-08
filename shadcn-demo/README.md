@@ -12,7 +12,7 @@ npm run dev
 ## Add Components
 
 ```bash
-npx shadcn-ui@latest add button
+npx shadcn-ui@latest add <component>
 ```
 
 Component List from https://ui.shadcn.com/docs/components || https://ui.shadcn.com/registry
@@ -67,9 +67,18 @@ tooltip
 
 ## Enable Dark Mode
 
+```
+npm install next-themes
+```
+
 ## V0 example
+```
+npx v0 add cL0HlYEkI9H
+```
 
 ## Lift Example
+Enable Lift mode
+Copy from shadcn
 
 
 ## Troubleshooting step
