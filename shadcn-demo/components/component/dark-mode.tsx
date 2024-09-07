@@ -1,3 +1,10 @@
+// npx shadcn-ui@latest add dropdown-menu
+// npx shadcn-ui@latest add button
+
+// npm i next-themes
+
+// ref: @/components/theme-provider
+
 "use client"
 
 import { Moon, Sun } from "lucide-react"

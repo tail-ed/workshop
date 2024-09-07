@@ -1,3 +1,6 @@
+// npx shadcn-ui@latest add card
+// npx shadcn-ui@latest add button
+
 "use client"
 
 import { Button } from "@/components/ui/button"
